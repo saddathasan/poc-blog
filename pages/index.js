@@ -3,6 +3,8 @@ import fs from "fs";
 import Head from "next/head"
 import { useEffect } from "react"
 
+// const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const Home = ({ slugs }) => (
 
   useEffect(() => {
